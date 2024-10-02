@@ -18,7 +18,7 @@ def speak(text):
     engine.runAndWait()
 
 def news():
-    url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=49ee266250fb4efe9d06edec49bbae3b"
+    url ="your news url with api hidden for security reason"
     response = requests.get(url)
     
     if response.status_code == 200:
@@ -73,7 +73,7 @@ def site(command):
 
 
 def ai_search(command):
-    my_api_key = "AIzaSyDi_7Wm8cYbpRLiVwy2ysKBRq859C5xevs"
+    my_api_key ="here will be the key hidden for security reson " 
     genai.configure(api_key=my_api_key)
     generation_config = {
         "temperature": 0.7,  # Lower value for more focused answers
