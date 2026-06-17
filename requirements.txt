@@ -1,0 +1,7 @@
+google-generativeai
+SpeechRecognition
+pyttsx3
+requests
+playsound==1.2.2
+pyaudio
+python-dotenv
